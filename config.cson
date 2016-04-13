@@ -56,6 +56,7 @@
   core:
     autoHideMenuBar: true
     destroyEmptyPanes: false
+    openEmptyEditorOnStart: false
     themes: [
       "nucleus-dark-ui"
       "atom-material-syntax-dark"
@@ -74,7 +75,8 @@
   emmet: {}
   "exception-reporting":
     userId: "ea4e1db5-823c-65f4-aaac-79f44dcc5735"
-  "git-plus": {}
+  "git-plus":
+    includeStagedDiff: false
   minimap:
     plugins:
       bookmarks: true
